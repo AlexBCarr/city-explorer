@@ -90,8 +90,8 @@ class App extends React.Component {
             <ul>
               <p id="title">{this.state.cityData.display_name}</p>
               <img class="img-cl" src={`https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${this.state.cityData.lat},${this.state.cityData.lon}&zoom=13`} alt='Map of Selected Location' />
-              <p>{this.state.cityData.lat}</p>
-              <p>{this.state.cityData.lon}</p>
+              {/* <p>{this.state.cityData.lat}</p>
+              <p>{this.state.cityData.lon}</p> */}
             </ul>  
         }
         
