@@ -90,7 +90,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <h1>ENTER A CITY TO SEARCH FOR</h1>
+      
+        <h1>City Heights</h1>
 
         <form onSubmit={this.getCityData}>
           <label > Enter in a City:
