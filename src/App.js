@@ -94,7 +94,7 @@ class App extends React.Component {
         <h1>City Heights</h1>
 
         <form onSubmit={this.getCityData}>
-          <label > Enter in a City:
+          <label > Please Enter A City:
             <input type="text" onChange={this.handleCityInput} />
           </label>
           <button type="submit">Explore!</button>
